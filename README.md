@@ -6,6 +6,6 @@ In this example, the original image is always displayed on bottom-left panel. Th
 
 To see the below image:
 
-$ python evolveImage.py cat.jpg
-
+           python evolveImage.py cat.jpg
+           1$ python SDSS_get.py -r [RA] -d [DEC] -w [FOV-width]
  ![Evolutionary Images](https://user-images.githubusercontent.com/13570487/30950224-307380a6-a3b7-11e7-9082-d9dca6fcb743.png?raw=true "Evolutionary Images")
