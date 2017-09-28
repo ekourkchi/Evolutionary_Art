@@ -67,7 +67,7 @@ To capture the video from an external camera (e.g. your laptop webcam), use this
  
            python evolveVideo.py 0
 
- **Installing The Required Pancakes for Video Streaming
+ ## Installing The Required Pancakes for Video Streaming
 
 The main program is in Python. The evolutionary part can be also written in Python, as long as it's fast. However to apply the resulting filters whiles streaming videos, it's easier to use a faster Python extension like C/C++.
 
