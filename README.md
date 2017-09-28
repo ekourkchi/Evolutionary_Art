@@ -15,6 +15,7 @@ Since the extension part of this package is written in C, you need to first comp
            python setup.py install
 
 This would compile the C library and make the library available for your Python compiler. You can also separately install the C extension using the *Makefile*. In this case, you probably you need to add the Python and Numpy libraries to "C_INCLUDE_PATH" environmental variable
+
            export C_INCLUDE_PATH='<Python_Directory>/python/include/python2.7/'
            export C_INCLUDE_PATH=$C_INCLUDE_PATH':<Python_Directory>/variants/common/lib/python2.7/site-packages/numpy/core/include/'
 
