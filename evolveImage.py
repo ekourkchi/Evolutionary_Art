@@ -11,7 +11,6 @@
 # //****************************************************************/
 
 
-import imageio
 
 ## See here for documentation
 ## http://imageio.readthedocs.io/en/latest/examples.html
@@ -30,15 +29,13 @@ import os
 import subprocess
 from math import *
 
-
-
 import copy
 import numpy as np
-import imfilters as imf
 import time
 import random
 
-
+## Importing home-made image filters (needs imfilters.py)
+import imfilters as imf
 
 # Global variable, an array of all Images
 # each Image is an object defined by the class My_ax
