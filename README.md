@@ -1,6 +1,6 @@
 # Evolutionary Art
 
-This package is written as a demonstration for a user directed evolutionary art. The idea is to evolve an existing Video or Image where the user plays the selection role using a GUI. In the current version, the user can only choose one image/video which would be then mutated to produce more options. As the user plays along, (s)he can guide the evolution in order to magnify the desired features, (s)he is looking for.
+This package is written as a demonstration for an user directed evolutionary art. The idea is to evolve an existing Video or Image where the user plays the selection role using a GUI. In the current version, the user can only choose one image/video which would be then mutated to produce more options. As the user plays along, (s)he can guide the evolution in order to magnify the desired features, (s)he is looking for.
 
 In order to simplify the evolution process, we filter images using the convolution matrices along with other parameters, i.e. factor and bias. The process is discussed in detail here: http://lodev.org/cgtutor/filtering.html
 
